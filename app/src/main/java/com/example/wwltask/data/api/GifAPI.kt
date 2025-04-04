@@ -1,7 +1,7 @@
-package com.example.wwltask.api
+package com.example.wwltask.data.api
 
 import com.example.wwltask.Constants
-import com.example.wwltask.model.GiftResponse
+import com.example.wwltask.data.model.GiftResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

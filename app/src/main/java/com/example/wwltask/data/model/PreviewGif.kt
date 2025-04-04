@@ -1,9 +1,9 @@
-package com.example.wwltask.model
+package com.example.wwltask.data.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class OriginalGif(
+data class PreviewGif(
     val url: String
 ): Parcelable
