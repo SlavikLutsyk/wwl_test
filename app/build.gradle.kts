@@ -52,8 +52,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
-    implementation(libs.coil.compose)
-    implementation(libs.coil.kt.coil.gif)
+    implementation(libs.coil.compose.v240)
+    implementation(libs.coil.gif.v240)
 
 
     // ViewModel dependencies

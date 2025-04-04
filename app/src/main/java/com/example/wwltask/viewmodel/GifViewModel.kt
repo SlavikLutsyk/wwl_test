@@ -1,5 +1,6 @@
 package com.example.wwltask.viewmodel
 
+
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -21,11 +22,7 @@ class GifViewModel() : ViewModel() {
     val gifState = mutableStateOf(GifState())
         get() = field
 
-    init {
-        fetchMeals()
-    }
-
-    private fun fetchMeals(){
+    fun fetchGifs(){
         viewModelScope.launch {
             try {
                 val response = gifService.getGifResponse()

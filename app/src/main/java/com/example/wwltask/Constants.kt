@@ -1,6 +1,6 @@
 package com.example.wwltask
 
 object Constants {
-    val base_url = "api.giphy.com/v1/"
-    val API_KEY = "6DsBtGNgk32ZwQtxCpYcBFkImMKxNrB2"
+    const val base_url = "https://api.giphy.com/v1/"
+    const val API_KEY = "6DsBtGNgk32ZwQtxCpYcBFkImMKxNrB2"
 }
