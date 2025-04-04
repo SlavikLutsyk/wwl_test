@@ -7,7 +7,5 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class Images(
     @SerializedName("original")
-    val original: OriginalGif,
-    @SerializedName("preview_gif")
-    val preview: PreviewGif
+    val original: OriginalGif
 ): Parcelable
